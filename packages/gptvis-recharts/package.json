@@ -1,0 +1,72 @@
+{
+  "name": "gptvis-recharts",
+  "version": "0.1.0",
+  "description": "Recharts adapter for GPT-Vis. Same vis syntax, GPTVis class, and chart constructors, rendered with Recharts and small accessible SVG/HTML fallbacks.",
+  "keywords": [
+    "gpt-vis",
+    "recharts",
+    "vis",
+    "llm",
+    "charts",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzc520pyfm/GPT-Vis-Recharts.git",
+    "directory": "packages/gptvis-recharts"
+  },
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src",
+    "skills",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "LICENSE"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.js"
+    },
+    "./syntax": {
+      "types": "./dist/syntax.d.ts",
+      "import": "./dist/syntax.js"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc -p tsconfig.check.json --noEmit",
+    "test": "vitest run && npm run build && node scripts/check-package.mjs"
+  },
+  "peerDependencies": {
+    "recharts": "^3.10.0",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^20.19.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "jsdom": "^26.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.10.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
