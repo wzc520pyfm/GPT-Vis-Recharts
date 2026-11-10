@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/gptvis-recharts/latest.svg?label=latest)](https://www.npmjs.com/package/gptvis-recharts)
 [![npm downloads](https://img.shields.io/npm/dm/gptvis-recharts.svg)](https://www.npmjs.com/package/gptvis-recharts)
 
-让 Recharts 用户直接使用 GPT-Vis 的 `vis` 语法、JSON 配置、主题、流式渲染和 26 种图表类型。
+让 Recharts 用户直接使用 [GPT-Vis](https://github.com/antvis/GPT-Vis) 的 `vis` 语法、JSON 配置、主题、流式渲染和 26 种图表类型。
 
 GPT-Vis 为 AntV 图表生态提供了面向 LLM 的可视化语法。GPT-Vis-Recharts 将这个接口带到 Recharts：Recharts 渲染它擅长的统计图、矩形树图和桑基图，其余图表由共享主题体系下的可访问 SVG/HTML 渲染器完成。
 

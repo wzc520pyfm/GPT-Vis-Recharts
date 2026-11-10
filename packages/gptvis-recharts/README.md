@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/gptvis-recharts/latest.svg?label=latest)](https://www.npmjs.com/package/gptvis-recharts)
 [![npm downloads](https://img.shields.io/npm/dm/gptvis-recharts.svg)](https://www.npmjs.com/package/gptvis-recharts)
 
-Recharts 版的 GPT-Vis 适配层。使用同一套 `vis` 语法、JSON 配置、主题、流式输出和 26 种图表类型。
+Recharts 版的 [GPT-Vis](https://github.com/antvis/GPT-Vis) 适配层。使用同一套 `vis` 语法、JSON 配置、主题、流式输出和 26 种图表类型。
 
 ## 安装
 
@@ -345,4 +345,4 @@ npm run dev
 
 ## 许可
 
-MIT。语法与兼容目标来自 AntV GPT-Vis；图表库为 Recharts。见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+MIT。语法与兼容目标来自 [AntV GPT-Vis](https://github.com/antvis/GPT-Vis)；图表库为 Recharts。见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
