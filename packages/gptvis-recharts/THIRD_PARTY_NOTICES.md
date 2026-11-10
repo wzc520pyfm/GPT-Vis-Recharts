@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-`gptvis-recharts` implements compatibility with the `vis` grammar and public chart contracts of AntV GPT-Vis. It uses Recharts as an external peer dependency. No source code from either project is vendored in this package.
+`gptvis-recharts` implements compatibility with the `vis` grammar and public chart contracts of [AntV GPT-Vis](https://github.com/antvis/GPT-Vis). It uses Recharts as an external peer dependency. No source code from either project is vendored in this package.
 
 ## AntV GPT-Vis
 

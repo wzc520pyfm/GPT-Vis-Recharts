@@ -134,9 +134,15 @@ export function App() {
         </nav>
 
         <div className="sidebar-footer">
-          <a href="https://github.com/wzc520pyfm/GPT-Vis-Recharts" target="_blank" rel="noreferrer">
-            GitHub
-          </a>
+          <span>
+            <a href="https://github.com/wzc520pyfm/GPT-Vis-Recharts" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            {' · '}
+            <a href="https://github.com/antvis/GPT-Vis" target="_blank" rel="noreferrer">
+              GPT-Vis
+            </a>
+          </span>
           <span>Recharts 3.10</span>
         </div>
       </aside>
